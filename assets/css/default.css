@@ -1,0 +1,34 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover, a:visited {
+    color: black;
+}
+
+header {
+    background: #303b44;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: Impact;
+}
+
+header a, header a:visited {
+    color: white;
+}
+
+header a:hover {
+    color: gray;
+}
+
+
+.header__section {
+    display: flex;
+    align-items: center;
+}
+
+.header__item {
+    padding: 10px;
+}
